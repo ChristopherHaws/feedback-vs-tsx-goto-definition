@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.Build.NoTargets/1.0.110">
+
+  <PropertyGroup>
+    <!-- Force VS to not add items these paths. This makes it so "Go to Files" and "Find and Replace" only show relevent files. -->
+    <DefaultItemExcludes>node_modules/**;wwwroot/lib/**;$(DefaultItemExcludes)</DefaultItemExcludes>
+  </PropertyGroup>
+
+</Project>
